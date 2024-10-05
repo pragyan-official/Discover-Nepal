@@ -1,0 +1,120 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Popular Places Section */
+.popular-places {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.popular-places h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: #2575fc;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Individual Place Styles */
+.place {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.place .description {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.place .description h3 {
+    font-size: 1.8rem;
+    color: #6a11cb;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.place .description p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.place .image {
+    flex: 1;
+}
+
+.place .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+#map
+{
+    opacity : 0;
+}
+
+.btn
+{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #4299e1;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-bottom: 4px solid #2b6cb0;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+
+}
